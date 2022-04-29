@@ -1,16 +1,36 @@
-.boxes {
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    height: 300px;
-    width: 300px;
-    background-color: aqua;
+.flex-container {
+ margin: auto;
+ width: 60%;
+height: 60%;
+border-color: gold;
+border-style: solid;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 50px;
+border-width: 1px;
+border-radius: 10px;
+}
+.grid {
+   width:500px;
+   height:500px;
+   display:grid;
+   border-color: black;
+   border-style: solid;
+   border-width: 1px;
+   
 }
 
-.grid {
-    width: auto;
-    height:auto;
+body {
+    background-color: red;
+}
+
+.center {
     display:flex;
-    flex-wrap: wrap;
-    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 60%;
+    margin-top: 6%;
 }

@@ -7,11 +7,24 @@
     <script src="main.js" defer></script>
     <title>EtchaSketch</title>
 </head>
-<body>
-    <div class="grid">
 
+<body>
+    <div class="center">
+    <div class="flex-container">
+        <div class="grid"></div>
+        <div class="set-size">
+            <input type="text" 
+            placeholder="Size of board" 
+            value="16" 
+            onchange="changeSize(this.value)"/>
+            <button>Set Size</button>
+            <button class="reset">Reset</button>
+        </div>
     </div>
+    </div>
+
 </body>
 <footer>
 </footer>
+
 </html>
